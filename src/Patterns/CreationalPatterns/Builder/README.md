@@ -14,3 +14,9 @@ related to each other
 
 ## UML
 ![img.png](assets/img.png)
+
+### Understand in the example
+In our case, Product is `Burger`, AbstractBuilder is `BurgerBuilder`, and Director is `Cooker`.
+Burgers might be different in type, but the process of building in the same and the only thing that differs is
+the number of ingredients for each burger type. `BurgerBuilder` should have the same structure and we will
+change the burger's ingredients internally. 
