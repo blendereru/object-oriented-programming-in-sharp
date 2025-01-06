@@ -1,6 +1,6 @@
-using AbstractFactory.Interfaces;
+using Factory.Interfaces;
 
-namespace AbstractFactory.Implementations;
+namespace Factory.Implementations;
 
 public class SmsNotification : INotification
 {

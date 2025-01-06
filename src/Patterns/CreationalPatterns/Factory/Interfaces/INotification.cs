@@ -1,4 +1,4 @@
-namespace AbstractFactory.Interfaces;
+namespace Factory.Interfaces;
 
 public interface INotification
 {

@@ -1,47 +1,21 @@
 ## Definition
 The Abstract Factory Design Pattern provides a way to encapsulate a group of factories with a common theme without specifying their concrete classes.
 Abstract Factory Pattern is a software design pattern that provides a way to encapsulate a group of individual factories that have a common theme.
-
-## Abstract Factory method pattern
-Abstract Factory patterns define this behaviour:
-* You have a service(call `NotificationFactory`) which is responsible for sending notifications of certain type(e.g. sms, email, or push
-notifications).
-* All notifications share the same functionality, so a single interface called `INotification` and containing a single
-method called `Send` is enough.
-* To create a notification of certain type we have to define another factories that inherit the functionality of 
-the base NotificationFactory and is responsible for creating a notification of the needed type.
-
-Consider the image below:
-
+## UML Diagram 
 ![img.png](assets/img.png)
 
-This approach provides expandability, as if we were to add new service called `PushNotificationService`, everything
-we would need to do is:
-1) To create a `PushNotification` class
-2) Define a `PushNotificationService` which would call to the `PushNotification` API.
+## Abstract Factory in our example
+The Abstract Factory design pattern provides an interface for creating families of related or dependent products but leaves the actual object creation to the concrete factory classes.
+In our example, the classes have the following hierarchy:
+1) `CourseFactory` serves a base class for all factories that are responsible for creating their own category of courses.
+2) `BackendCourseFactory` inherits CourseFactory, and thus creates its own category of courses(backend courses)
+3) BackendCourseFactory can create its own backend-related courses(e.g. Java, Python courses)
+4) The same works for FrontendCourseFactory
 
-### Drawback
-This pattern is good, but not perfect, as creating new service obligates us to create 2 classes. As a solution,
-I think centralized `NotificationFactory` class seems like a better approach. In this way, we would need to 
-create a single class for new API. For example:
-```csharp
-public abstract class NotificationFactory
-{
-    public virtual INotification CreateNotification(string type)
-    {
-        switch (type)
-        {
-            case "email":
-                return new EmailNotification();
-            case "sms":
-                return new SmsNotification();
-        }
-    }
-}
-```
-In this way, no extra factories are needed. But this way, is an example of simple `factory` pattern, so it's not suitable 
-for us.
-
+### Expandability
+If we were to add courses related to `DevOps` category, we would need to define
+1) `DevOpsCourseFactory` that can contain different methods like: `CreateCiCdCourse`, `CreateDockerCourse`, etc. 
+2) And each course can have their own classes for description purposes(e.g. `DockerCourse` class, `CiCdCourse` class).
 ### What should I keep in mind
 The Abstract Factory Design Pattern consists of the following components:
 
