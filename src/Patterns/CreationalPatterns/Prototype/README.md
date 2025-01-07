@@ -1,6 +1,6 @@
 ## Prototype
-Prototype Design Pattern specifies the kind of objects to create using a prototypical instance and creates new objects by copying this prototype.
-It just offers the cloning technique for objects.
+Prototype Design Pattern specifies the kind of objects to create using a prototypical instance and creates new objects by copying this prototype. It just offers the cloning technique for objects.
+
 ![img.png](assets/img.png)
 ## When to use ?
 If you have a project where client might work with copying the same product or object consider using this pattern.
