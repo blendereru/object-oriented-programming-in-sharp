@@ -1,6 +1,7 @@
 ## Strategy
 Strategy Design Pattern define a family of algorithms, encapsulate each one, and make them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
+
 ![img.png](assets/img.png)
 From this image, `IStrategy` is the base class(interface) for algorithms. ConcreteStrategies are different algorithms
 that client plans to use. `Context` is the class that allows the client to choose which algorithm to use.

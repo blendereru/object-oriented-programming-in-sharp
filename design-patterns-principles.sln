@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Patterns\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "src\Patterns\BehavioralPatterns\Strategy\Strategy.csproj", "{CD616129-BA49-4F81-9844-CB41DA7E340A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "src\Patterns\BehavioralPatterns\Observer\Observer.csproj", "{701E7518-1EA5-401C-9649-B61FF26F7BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{CD616129-BA49-4F81-9844-CB41DA7E340A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD616129-BA49-4F81-9844-CB41DA7E340A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD616129-BA49-4F81-9844-CB41DA7E340A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701E7518-1EA5-401C-9649-B61FF26F7BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701E7518-1EA5-401C-9649-B61FF26F7BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701E7518-1EA5-401C-9649-B61FF26F7BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701E7518-1EA5-401C-9649-B61FF26F7BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
