@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "src\Patterns\Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "src\Patterns\BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj", "{F856DC77-1A51-42B6-A7D7-F7637C3108EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "src\Patterns\BehavioralPatterns\Command\Command.csproj", "{F60AEAAE-2F8B-4020-BDA2-D475440ACF59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{F856DC77-1A51-42B6-A7D7-F7637C3108EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F856DC77-1A51-42B6-A7D7-F7637C3108EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F856DC77-1A51-42B6-A7D7-F7637C3108EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60AEAAE-2F8B-4020-BDA2-D475440ACF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60AEAAE-2F8B-4020-BDA2-D475440ACF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60AEAAE-2F8B-4020-BDA2-D475440ACF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60AEAAE-2F8B-4020-BDA2-D475440ACF59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
