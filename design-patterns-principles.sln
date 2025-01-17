@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "src\Patterns\Beh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "src\Patterns\StructuralPatterns\Adapter\Adapter.csproj", "{00B2488E-CB60-46EB-AFD8-AA03A2D80C51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Patterns\StructuralPatterns\Decorator\Decorator.csproj", "{7B3EF455-EBDC-430E-9570-8D22CA44363A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{00B2488E-CB60-46EB-AFD8-AA03A2D80C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B2488E-CB60-46EB-AFD8-AA03A2D80C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B2488E-CB60-46EB-AFD8-AA03A2D80C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3EF455-EBDC-430E-9570-8D22CA44363A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3EF455-EBDC-430E-9570-8D22CA44363A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3EF455-EBDC-430E-9570-8D22CA44363A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3EF455-EBDC-430E-9570-8D22CA44363A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
