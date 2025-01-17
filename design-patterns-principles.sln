@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "src\Patterns\Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "src\Patterns\BehavioralPatterns\Memento\Memento.csproj", "{57F5DE60-D710-4D75-B5E9-3061E92BB99E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "src\Patterns\BehavioralPatterns\Visitor\Visitor.csproj", "{23804DEE-D67E-4208-B0A8-3C6CD54DA261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{57F5DE60-D710-4D75-B5E9-3061E92BB99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F5DE60-D710-4D75-B5E9-3061E92BB99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F5DE60-D710-4D75-B5E9-3061E92BB99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23804DEE-D67E-4208-B0A8-3C6CD54DA261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23804DEE-D67E-4208-B0A8-3C6CD54DA261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23804DEE-D67E-4208-B0A8-3C6CD54DA261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23804DEE-D67E-4208-B0A8-3C6CD54DA261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
