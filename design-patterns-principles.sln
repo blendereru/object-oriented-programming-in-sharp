@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "src\Patterns\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "src\Patterns\StructuralPatterns\Facade\Facade.csproj", "{7E365C7C-0AD5-4230-B72F-CD0B62914C09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "src\Patterns\StructuralPatterns\Bridge\Bridge.csproj", "{7FE1D233-D34C-4C12-A534-6A89F7291507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{7E365C7C-0AD5-4230-B72F-CD0B62914C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E365C7C-0AD5-4230-B72F-CD0B62914C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E365C7C-0AD5-4230-B72F-CD0B62914C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE1D233-D34C-4C12-A534-6A89F7291507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE1D233-D34C-4C12-A534-6A89F7291507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE1D233-D34C-4C12-A534-6A89F7291507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE1D233-D34C-4C12-A534-6A89F7291507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
