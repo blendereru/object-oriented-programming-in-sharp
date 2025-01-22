@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "src\Patterns\Struc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Responsibility", "src\Principles\Single Responsibility\Single Responsibility.csproj", "{7B9D7224-7B17-4CD7-BD94-57C3C872D9AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open and Closed Principle", "src\Principles\Open and Closed Principle\Open and Closed Principle.csproj", "{22624315-8A88-4CFC-9BC3-7DD2BAEC665C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{7B9D7224-7B17-4CD7-BD94-57C3C872D9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9D7224-7B17-4CD7-BD94-57C3C872D9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9D7224-7B17-4CD7-BD94-57C3C872D9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22624315-8A88-4CFC-9BC3-7DD2BAEC665C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22624315-8A88-4CFC-9BC3-7DD2BAEC665C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22624315-8A88-4CFC-9BC3-7DD2BAEC665C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22624315-8A88-4CFC-9BC3-7DD2BAEC665C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

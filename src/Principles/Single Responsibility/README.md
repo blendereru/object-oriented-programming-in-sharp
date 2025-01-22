@@ -16,7 +16,7 @@ public class User
         Console.WriteLine($"{Name}: Hi users!");
     }
 
-    public bool IsValid()
+    public bool IsValidEmail()
     {
         return Email.EndsWith("@gmail.com");
     }
@@ -40,4 +40,3 @@ to understand. Each class has a clear purpose so developers can quickly understa
 * When classes are designed with just one responsibility, changes in the system’s requirements affect
 fewer components. This makes it easier to update and maintain the code since changes to one part of the 
 system are less likely to affect other parts.
-* 
