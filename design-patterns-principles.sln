@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Segregation", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Inversion", "src\Principles\Dependency Inversion\Dependency Inversion.csproj", "{A787AE12-80D6-44AD-BFD5-F4EE46409D0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "src\Principles\Encapsulation\Encapsulation.csproj", "{1C2AD05D-C276-4EA7-849D-2A8127C6A5FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,5 +170,9 @@ Global
 		{A787AE12-80D6-44AD-BFD5-F4EE46409D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A787AE12-80D6-44AD-BFD5-F4EE46409D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A787AE12-80D6-44AD-BFD5-F4EE46409D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2AD05D-C276-4EA7-849D-2A8127C6A5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2AD05D-C276-4EA7-849D-2A8127C6A5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2AD05D-C276-4EA7-849D-2A8127C6A5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2AD05D-C276-4EA7-849D-2A8127C6A5FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
